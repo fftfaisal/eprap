@@ -1,0 +1,7 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/frontend/js/learn-study-material.js": "/frontend/js/learn-study-material.js",
+    "/backend/js/create-study-material.js": "/backend/js/create-study-material.js",
+    "/backend/js/update-study-material.js": "/backend/js/update-study-material.js",
+    "/backend/js/profile-verification.js": "/backend/js/profile-verification.js"
+}
