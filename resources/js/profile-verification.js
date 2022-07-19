@@ -1,4 +1,4 @@
-require('./bootstrap');
+import './bootstrap';
 window.Vue = require('vue').default;
 import vSelect from 'vue-select';
 import 'vue-select/dist/vue-select.css';

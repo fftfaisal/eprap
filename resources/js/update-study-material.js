@@ -1,4 +1,4 @@
-require('./bootstrap');
+import './bootstrap';
 const CKEditor = require('@ckeditor/ckeditor5-vue2');
 window.Vue = require('vue').default;
 Vue.use( CKEditor );
@@ -27,7 +27,7 @@ const toast = swal.mixin({
 
 window.toast = toast;
 
-global.jQuery = require('jquery');
+import jQuery from 'jquery';
 var $ = global.jQuery;
 window.$ = $;
 Vue.component('setup-task-edit', require('./components/admin/study-materials/StudyTaskEdit.vue').default);

@@ -1,4 +1,4 @@
-require('./bootstrap');
+import './bootstrap';
 import CKEditor from '@ckeditor/ckeditor5-vue2';
 window.Vue = require('vue').default;
 Vue.use( CKEditor );
@@ -38,7 +38,7 @@ const toast = swal.mixin({
 
 window.toast = toast;
 
-global.jQuery = require('jquery');
+import jQuery from 'jquery';
 var $ = global.jQuery;
 window.$ = $;
 
